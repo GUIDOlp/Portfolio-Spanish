@@ -1,0 +1,90 @@
+/* Media Queries*/ 
+
+@media (max-width: 991px) {
+  .contenedorHamburguesa{
+  /* con margin left auto, llevo el elemento a la derecha de la pantalla */
+    margin-left: auto;
+  }
+}
+@media (min-width: 992px) and (max-width: 1075px) {
+  .navbar #menu-contenedor #menu-header{
+    margin: 0 15px;
+  }
+}
+@media (min-width: 1076px) and (max-width: 1126px) {
+.navbar #menu-contenedor #menu-header{
+    margin: 0 10px;
+  }
+}
+@media (min-width: 1127px) and (max-width: 1157px) {
+  .navbar #menu-contenedor #menu-header{
+    margin: 0 5px;
+  }
+}
+@media (max-width: 991px) {
+  .icono-header{
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .main{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 767px) {
+  .main img{
+    width: 250px;
+    margin: 20px auto;     
+  }
+}
+@media (max-width: 767px) {
+  .info-content {
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .main button{
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .main img{
+    width: 170px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1072px) {
+  .name-subtitle{
+    margin-top: 15px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1072px) {
+  .info-content button{
+    margin-bottom: 15px;
+  }
+}
+@media (max-width:400px) {
+ .contenedor-portfolio .card-wrap .card{
+    margin-left: 0;
+  }
+}
+@media (max-width:227px) {
+ .card-wrap .card .card-body .boton-portfolio .btn{
+    padding: 5px 5px;
+  }
+}
+@media (max-width: 550px) {
+  .contenedor-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .contenedor-contacto div{
+    padding: 15px;
+   }
+}
+@media (max-width: 250px) {
+  .contacto .contenedor-contacto div h4{
+    display: none;
+  }
+}

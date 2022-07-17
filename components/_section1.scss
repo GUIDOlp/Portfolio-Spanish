@@ -1,0 +1,42 @@
+/* Main section 1*/
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background-color: $colortres;
+    padding: 0 10%;
+     img{
+        width: 300px;
+        border-radius: 100%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+     }
+      .info-content{
+        text-align: center;
+        margin-bottom: 20px;
+         .name-subtitle{
+            color: $colorcuatro;
+         }
+         #nombre{
+           margin-top: 30px;
+         }
+          p{
+            color: $colorcinco;
+            text-align: justify; 
+            font-size: 20px;
+          }
+          button{
+            background-color: $coloruno;
+            color: $colorcinco;
+            padding: 10px 10px;
+            border: none;
+            border-radius: 20px;
+            margin-bottom: 30px;
+             &:hover{
+                background-color: $colorseis;
+                color: $colorcinco;
+             }
+          }
+      }
+}

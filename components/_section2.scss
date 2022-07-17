@@ -1,0 +1,18 @@
+/* Main / sobre mi*/
+
+.sobreMi{
+    background-color: $colorsiete;
+     h2{
+        text-align: center;
+        padding-top: 20px;
+        color: $colorcuatro;
+     }
+      p{
+        text-align: justify;
+        margin-left: 30px;
+        margin-right: 30px;
+        color: $colorcinco;
+        font-size: 18px;
+        padding-bottom: 30px;
+      }
+  }

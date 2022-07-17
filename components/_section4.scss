@@ -1,0 +1,41 @@
+/* Main / Mis habilidades*/
+
+.misHabilidades{
+    background-color: $colorsiete;
+    padding-top: 30px;
+    padding-bottom: 30px;
+     h3{
+        text-align: center;
+        color: $colorcuatro;
+     }
+      .contenedor-habilidades{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 30px;
+         .caja{
+        width: 160px;
+        height: 30vh;
+        background-color: $colorseis;
+        border-radius: 20px;
+        transition: all 0.25s;
+        box-shadow: 0 0 12px $colornueve;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+         &:hover{
+          transform: translateY(-15px);
+         }
+         #icon-caja{
+            height: 10vh;
+           color: $colorcinco; 
+         }
+         h4{
+            color: $colorcuatro;
+            margin-top: 25px;
+         }
+         }
+      }
+}

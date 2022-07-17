@@ -1,0 +1,330 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* header*/
+.navbar {
+  padding: 15px;
+}
+.navbar .navbar-brand {
+  margin-left: 15px;
+}
+.navbar .navbar-brand span {
+  color: blueviolet;
+}
+.navbar #menu-contenedor {
+  margin: 0 auto;
+}
+.navbar #menu-contenedor #menu-header {
+  margin: 0 35px;
+  padding: 10px 10px;
+}
+.navbar #menu-contenedor #menu-header:hover {
+  background-color: blueviolet;
+  color: #191c32;
+  transition: ease-in 0.3s;
+}
+.navbar .contenedor-iconos {
+  margin-right: 15px;
+}
+.navbar .contenedor-iconos .icono-header {
+  width: 40px;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+/* Main section 1*/
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  background-color: #3F4E4F;
+  padding: 0 10%;
+}
+.main img {
+  width: 300px;
+  border-radius: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.main .info-content {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.main .info-content .name-subtitle {
+  color: #8d6b05;
+}
+.main .info-content #nombre {
+  margin-top: 30px;
+}
+.main .info-content p {
+  color: white;
+  text-align: justify;
+  font-size: 20px;
+}
+.main .info-content button {
+  background-color: blueviolet;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.main .info-content button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Main / sobre mi*/
+.sobreMi {
+  background-color: #34383c;
+}
+.sobreMi h2 {
+  text-align: center;
+  padding-top: 20px;
+  color: #8d6b05;
+}
+.sobreMi p {
+  text-align: justify;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: white;
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+
+/* Main / Portfolio*/
+.contenedor-portfolio {
+  background-color: #3F4E4F;
+  margin-top: -16px;
+  padding-bottom: 10px;
+}
+.contenedor-portfolio .portfolio h2 {
+  text-align: center;
+  color: #8d6b05;
+  padding-top: 20px;
+}
+.contenedor-portfolio h3 {
+  text-align: center;
+  color: white;
+}
+.contenedor-portfolio .card-wrap {
+  display: flex;
+  flex-flow: wrap;
+}
+.contenedor-portfolio .card-wrap .card {
+  background-color: rgb(17, 17, 82);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  border-radius: 20px;
+  transition: all 0.25s;
+  box-shadow: 0 0 12px #d7d7d7;
+}
+.contenedor-portfolio .card-wrap .card:hover {
+  transform: translateY(-15px);
+}
+.contenedor-portfolio .card-wrap .card .card-body h3 {
+  color: #8d6b05;
+}
+.contenedor-portfolio .card-wrap .card p {
+  color: white;
+  text-align: center;
+}
+.contenedor-portfolio .card-wrap .card .boton-portfolio {
+  display: flex;
+  justify-content: space-evenly;
+}
+.contenedor-portfolio .card-wrap .card .boton-portfolio .btn {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+.contenedor-portfolio .card-wrap .card .boton-portfolio .btn:hover {
+  background-color: blueviolet;
+}
+
+/* Main / Mis habilidades*/
+.misHabilidades {
+  background-color: #34383c;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.misHabilidades h3 {
+  text-align: center;
+  color: #8d6b05;
+}
+.misHabilidades .contenedor-habilidades {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.misHabilidades .contenedor-habilidades .caja {
+  width: 160px;
+  height: 30vh;
+  background-color: black;
+  border-radius: 20px;
+  transition: all 0.25s;
+  box-shadow: 0 0 12px #d7d7d7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.misHabilidades .contenedor-habilidades .caja:hover {
+  transform: translateY(-15px);
+}
+.misHabilidades .contenedor-habilidades .caja #icon-caja {
+  height: 10vh;
+  color: white;
+}
+.misHabilidades .contenedor-habilidades .caja h4 {
+  color: #8d6b05;
+  margin-top: 25px;
+}
+
+/* Main / Contacto*/
+.contacto {
+  background-color: #3F4E4F;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.contacto h3 {
+  color: #8d6b05;
+  text-align: center;
+}
+.contacto .contenedor-contacto {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.contacto .contenedor-contacto div {
+  display: flex;
+}
+.contacto .contenedor-contacto div img {
+  width: 60px;
+  border-radius: 25px;
+}
+.contacto .contenedor-contacto div h4 {
+  margin: 15px;
+  color: #8d6b05;
+}
+
+/* Footer*/
+footer {
+  background-color: #34383c;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+footer h5 {
+  text-align: center;
+  color: white;
+}
+
+/* Media Queries*/
+@media (max-width: 991px) {
+  .contenedorHamburguesa {
+    /* con margin left auto, llevo el elemento a la derecha de la pantalla */
+    margin-left: auto;
+  }
+}
+@media (min-width: 992px) and (max-width: 1075px) {
+  .navbar #menu-contenedor #menu-header {
+    margin: 0 15px;
+  }
+}
+@media (min-width: 1076px) and (max-width: 1126px) {
+  .navbar #menu-contenedor #menu-header {
+    margin: 0 10px;
+  }
+}
+@media (min-width: 1127px) and (max-width: 1157px) {
+  .navbar #menu-contenedor #menu-header {
+    margin: 0 5px;
+  }
+}
+@media (max-width: 991px) {
+  .icono-header {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 767px) {
+  .main img {
+    width: 250px;
+    margin: 20px auto;
+  }
+}
+@media (max-width: 767px) {
+  .info-content {
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .main button {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .main img {
+    width: 170px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1072px) {
+  .name-subtitle {
+    margin-top: 15px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1072px) {
+  .info-content button {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 400px) {
+  .contenedor-portfolio .card-wrap .card {
+    margin-left: 0;
+  }
+}
+@media (max-width: 227px) {
+  .card-wrap .card .card-body .boton-portfolio .btn {
+    padding: 5px 5px;
+  }
+}
+@media (max-width: 550px) {
+  .contenedor-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedor-contacto div {
+    padding: 15px;
+  }
+}
+@media (max-width: 250px) {
+  .contacto .contenedor-contacto div h4 {
+    display: none;
+  }
+}
+

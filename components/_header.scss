@@ -1,0 +1,30 @@
+/* header*/
+.navbar{
+    padding: 15px;
+    .navbar-brand{
+        margin-left: 15px;
+         span{
+            color: $coloruno;
+         }
+    }
+    #menu-contenedor{
+        margin: 0 auto;
+         #menu-header{
+         margin: 0 35px;
+         padding: 10px 10px;
+          &:hover{
+            background-color: $coloruno;
+            color: $colordos;
+            transition: ease-in .3s;
+          }
+        }
+    }
+    .contenedor-iconos{
+        margin-right: 15px;
+         .icono-header{
+          width: 40px;
+          border-radius: 15px;
+          margin: 5px;
+         }
+    }
+}
